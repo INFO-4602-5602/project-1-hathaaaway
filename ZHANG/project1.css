@@ -1,0 +1,27 @@
+body {
+    font-family: Bungee Hairline;
+    font-size: 15px;
+}
+
+h2 {
+  margin-left: 20;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.point {
+    fill: #f00;
+    stroke: #000;
+}
+
+.label {
+    text-anchor: middle;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
